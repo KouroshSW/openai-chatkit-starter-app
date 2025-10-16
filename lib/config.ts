@@ -8,14 +8,14 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
     label: "Vad kan du göra?",
-    prompt: "What can you do?",
+    prompt: "Vad kan du göra?",
     icon: "circle-question",
   },
 ];
 
 export const PLACEHOLDER_INPUT = "Ställ din fråga...";
 
-export const GREETING = "Hej! Hur kan jag hjälpa dig idag?";
+export const GREETING = "Hej!<br>Hur kan jag hjälpa dig idag?";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
