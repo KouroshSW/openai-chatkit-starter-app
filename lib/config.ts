@@ -15,7 +15,7 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
 
 export const PLACEHOLDER_INPUT = "Ställ din fråga...";
 
-export const GREETING = "Hej!<br>Hur kan jag hjälpa dig idag?";
+export const GREETING = "Hej\nHur kan jag hjälpa dig idag?";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
