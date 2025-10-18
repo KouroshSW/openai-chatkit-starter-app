@@ -32,3 +32,6 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
 }
+body {
+  background: red;
+}
