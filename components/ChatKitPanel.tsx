@@ -359,7 +359,7 @@ export function ChatKitPanel({
         fallbackMessage={
           blockingError || !isInitializingSession
             ? null
-            : "Välkommen till AGERA Global"
+            : "Välkommen till AGERA Globals support"
         }
         onRetry={blockingError && errors.retryable ? handleResetChat : null}
         retryLabel="Restart chat"
@@ -416,11 +416,4 @@ function extractErrorDetail(
 
   return fallback;
 }
-<div className="flex justify-center py-4 bg-white shadow rounded-md">
-  <img
-    src="https://www.ageraglobal.se/wp-content/uploads/2024/10/AGERA-Global-T-1.png"
-    alt="AgeraGlobal logga"
-    className="h-12 w-auto"
-  />
-</div>
 
