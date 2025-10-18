@@ -28,10 +28,7 @@
 }
 
 body {
-  background: var(--background);
+  background: red;
   color: var(--foreground);
   font-family: var(--font-sans);
-}
-body {
-  background: red;
 }
