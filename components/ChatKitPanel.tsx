@@ -416,3 +416,6 @@ function extractErrorDetail(
 
   return fallback;
 }
+<div className="flex justify-center py-4 bg-white shadow rounded-md">
+  <img src="/images/logo-agerakbt.png" alt="AgeraKBT logga" className="h-12 w-auto" />
+</div>
